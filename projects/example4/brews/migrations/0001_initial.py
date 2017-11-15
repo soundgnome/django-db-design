@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=255)),
                 ('ingredient_type', models.CharField(max_length=255)),
                 ('amount', models.FloatField()),
-                ('measuerment_unit', models.CharField(max_length=255)),
+                ('measurement_unit', models.CharField(max_length=255)),
             ],
         ),
         migrations.CreateModel(
